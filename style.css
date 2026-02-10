@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(138, 90, 44);
+margin: 0;
+}
+
+.top{
+   background-color: #333333;
+}
+
+.top > h1{
+    margin: 0;
+    font-size: 4.25rem;
+    color: white;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem black;
+}
+.top > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.top > ul li a {
+  display: block;
+  color: white;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  text-shadow: 0.2rem 0.2rem black;
+}
+
+.top > ul li a:hover {
+  background-color: #111111;
+}
+
+.hero-box{
+    background-image: url("kanelbulle.png");
+    /*position: inherit;*/
+    background-position: center;
+    height: 38rem;
+    width: auto;
+    margin: 0;
+}
+
+.hero-box > article{
+    background-color: rgba(74, 46, 26, 0.815);
+    margin: 10% 5%;
+    padding: 3%;
+    height: auto;
+    width: auto;
+    border-radius: 3%;
+}
+
+.hero-box > article > h2{
+    margin: 0;
+    font-size: 4rem;
+    color: rgb(233, 218, 204);
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem black;
+
+}
+
+.hero-box > article > p{
+    font-size: 2rem;
+    color: rgb(233, 218, 204);
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem black;
+}
+
+.box{
+    background-color: rgb(79, 46, 14);
+    margin: 0.5% 30%;
+    border-radius: 5%;
+    height: auto;
+    width: auto;
+}
+
+.info{
+    background-color: inherit;
+    width: auto;
+    text-align: center;
+}
+
+.box > .info > h2{
+    padding-top: 5%;
+    margin: 0;
+    font-size: 4rem;
+    color: rgb(233, 218, 204);
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem black;
+}
+
+.box > .info > h3{
+    padding: 1.5% 0 0.5% 1.5%;
+    margin: 0.15% 0 0 0.15%;
+    font-size: 2.7rem;
+    color: rgb(233, 218, 204);
+    text-align: left;
+    text-shadow: 0.2rem 0.2rem black;
+    border-bottom: white 0.1rem solid;
+}
+.box > .info > h4{
+    padding: 1.5% 0 0.5% 1.5%;
+    margin: 0.15% 0 0 0.15%;
+    font-size: 2.7rem;
+    color: rgb(233, 218, 204);
+    text-align: left;
+    text-shadow: 0.2rem 0.2rem black;
+}
+
+.aboutus{
+    display: flex;
+    margin: 0;
+}
+
+.box > .info > p{
+    display: flex;
+    font-size: 2rem;
+    padding: 0 0 0 3%;
+    margin: 0.15% 0 0 0.15%;
+    color: rgb(233, 218, 204);
+    text-align: left;
+    text-shadow: 0.125rem 0.125rem black;
+    border: white 0.02rem solid;
+}
+
+.box > .info > img{
+    max-width: 30%;
+    max-height: 30%;
+    float: right;
+    border: white 0.02rem solid;
+    margin: 0 0.15% 0 0;
+}
+.box > .info > .aboutus > p{
+    font-size: 1.4rem;
+    padding: 0 0 0 3%;
+    margin: 0.15% 0 0 0.15%;
+    color: rgb(233, 218, 204);
+    text-align: left;
+    text-shadow: 0.125rem 0.125rem black;
+}
+.box > .info > .aboutus > h5{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin: 0.2% 0 0 2%;
+    color: rgb(233, 218, 204);
+    border-top: white 0.2rem solid;
+    text-align: left;
+    text-shadow: 0.125rem 0.125rem black;
+}
+
+.box > .info >.aboutus > img{
+    max-width: 30%;
+    max-height: 30%;
+    float: right;
+    padding: 0 0 0 3%;
+    margin: 0.15% 0 0 0.15%;
+}
+.box > .info > ul > li{
+    font-size: 2rem;
+    margin: 0.1% 0;
+    color: rgb(233, 218, 204);
+    text-shadow: 0.125rem 0.125rem black;
+    border: white 0.02rem solid;
+}
+.box > .info > a{
+    font-size: 2.3rem;
+    color: rgb(233, 218, 204);
+    text-shadow: 0.125rem 0.125rem black;
+    text-decoration: none;
+    text-align: center;
+}
+.btn{
+    font-size: 2.3rem;
+    margin: 0 40%;
+    text-align: center;
+    width: auto;
+}
+.btn > a{
+    color: black;
+    text-decoration: none;
+}
+
+.bottom{
+ background-color: #333333;
+}
+.bottom > ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.bottom > ul li a {
+  display: block;
+  color: white;
+  padding: 0.7rem 0.9rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.bottom > ul li a:hover {
+  background-color: #111111;
+}
+.bottom > p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem black;
+    margin: 0;
+}
