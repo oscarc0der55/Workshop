@@ -39,7 +39,7 @@ margin: 0;
 }
 
 .hero-box{
-    background-image: url("kanelbulle.png");
+    background-image: url("/IMG/kanelbulle.png");
     /*position: inherit;*/
     background-position: center;
     height: 38rem;
